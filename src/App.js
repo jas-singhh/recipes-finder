@@ -13,7 +13,12 @@ function App() {
 
       <div className="grid grid-cols-3 gap-2 max-w-screen-xl mx-auto mt-10 ">
         {recipesData.map((recipe) => (
-          <Card key={recipe.id} title={recipe.title} image={recipe.image} />
+          <Card
+            key={recipe.id}
+            id={recipe.id}
+            title={recipe.title}
+            image={recipe.image}
+          />
         ))}
       </div>
     </div>

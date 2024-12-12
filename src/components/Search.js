@@ -15,7 +15,6 @@ function Search({ setRecipesData }) {
         if (data) {
           setData(data.results);
           setRecipesData(data.results);
-          console.log(data.results);
         }
       }
     }
